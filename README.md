@@ -1,5 +1,5 @@
 # Filter-FFUF-Output
-Bash script to remove false positives from ffuf output.
+Bash script to remove false positives from [ffuf](https://github.com/ffuf/ffuf) output.
 
 ## Usage
 * Imagine you use [ffuf](https://github.com/ffuf/ffuf) to fuzz directories in a website, and you recieve an output like the following:
