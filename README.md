@@ -6,7 +6,7 @@ Bash script to remove **false positives** from [ffuf](https://github.com/ffuf/ff
 
   <img width="542" alt="ffufOutput" src="https://user-images.githubusercontent.com/90275448/184215171-75ac7480-2160-4f41-b73f-8839649e34c8.png">
 
-* You could use this tool, to **filter** the output, it will delete the results whose `Words` are repeated more than 3 times:
+* You could use this tool to **filter** the output, it will delete the results whose `Words` are repeated more than 3 times:
 
   `./filter.sh output_ffuf.txt`
 
