@@ -5,6 +5,6 @@ Imagine you use ffuf to fuzz directories in a website, and you recieve an output
 
 You could use this tool, to filter the output, it will delete the results whose `words` are repeated more than 3 times:
 
-`./filter.sh -f results.txt -o resultsFiltered.txt`
+`./filter.sh -f ffufOutput.txt`
 
 The final output would be the following:
