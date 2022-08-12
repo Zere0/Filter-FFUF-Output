@@ -1,5 +1,6 @@
 # Filter-FFUF-Output
 Bash script to remove **false positives** from [ffuf](https://github.com/ffuf/ffuf) output.
+> Note that ffuf has an option to do something similar: `-ac`, however, this tool is very useful to filter the output if you forget to include that option.
 
 ## Usage
 * Imagine you use [ffuf](https://github.com/ffuf/ffuf) to fuzz directories in a website, and you receive an **output** like the following:
